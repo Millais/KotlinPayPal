@@ -21,7 +21,7 @@ class PayPalController : Controller(), PayPalContract.View {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup): View {
         // Store layout to access synthetic properties outside of Activities/Fragments
         view = inflater.inflate(R.layout.paypal_main, container, false)
-        setPresenter()  // First launch
+        setPresenter()
         return view
     }
 

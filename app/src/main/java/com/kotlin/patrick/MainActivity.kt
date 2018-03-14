@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity(), PaymentMethodNonceCreatedListener {
         resetMainController()
     }
 
-
     private fun setToolbarAndNavigationDrawer() {
         toolbar.setTitle(R.string.app_name)
         setSupportActionBar(toolbar)
