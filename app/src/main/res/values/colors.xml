@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+
+    <color name="colorPayPalOne">#012169</color>
+    <color name="colorPayPalTwo">#003087</color>
+
+    <color name="colorPayPalNightOne">#00415C</color>
+    <color name="colorPayPalNightTwo">#02225B</color>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- App, Header & Navigation Drawer  -->
+
+    <string name="app_name">Kotlin PayPal</string>
+    <string name="app_description">A sample app written in Kotlin demonstrating PayPal products.</string>
+    <string name="pp_description">Express Checkout integration with the PayPal risk component and Custom Tab deep linking. </string>
+    <string name="bt_description">PayPal integration via the Braintree SDK</string>
+    <string name="action_braintree">Braintree SDK</string>
+    <string name="action_paypal">REST API</string>
+    <string name="action_open_source">Open Source Licences</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="header_logos">Kotlin and PayPal Logos</string>
+
+    <!-- PayPal REST API Strings -->
+
+    <string name="pp_step1">Retrieve Access Token</string>
+    <string name="pp_step2">Retrieve Create Payment ID</string>
+    <string name="pp_step3">Finalising Payment</string>
+    <string name="pp_access_token_error">Error retrieving access token</string>
+    <string name="pp_create_payment_error">Error retrieving payment ID</string>
+    <string name="pp_execute_payment_error">Error executing payment</string>
+
+    <!-- Braintree SDK Strings -->
+
+    <string name="bt_step1">Retrieve Client Token</string>
+    <string name="bt_step2">Retrieve Payment Nonce</string>
+    <string name="bt_step3">Process Nonce</string>
+    <string name="bt_client_token_error">Error retrieving client token</string>
+    <string name="bt_nonce_error">Error retrieving nonce</string>
+    <string name="bt_result_error">Error retrieving final result</string>
+    <string name="bt_load_error">Something went wrong!</string>
+
+
+    <!-- Misc -->
+
+    <string name="pwpp_button">Pay With PayPal</string>
+    <string name="pwpp_button_uninitialised">No valid redirect URL</string>
+    <string name="fetching">Fetching &#8230;</string>
+    <string name="start_again">Start Again</string>
+    <string name="success">Success! %1$s</string>
+
+</resources>

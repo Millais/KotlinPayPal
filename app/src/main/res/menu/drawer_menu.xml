@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_paypal"
+            android:title="@string/action_paypal"
+            android:checked="true"/>
+        <item
+            android:id="@+id/action_braintree"
+            android:title="@string/action_braintree" />
+    </group>
+    <item
+        android:id="@+id/action_open_source"
+        android:title="@string/action_open_source"/>
+</menu>

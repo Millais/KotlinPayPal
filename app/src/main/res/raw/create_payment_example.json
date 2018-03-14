@@ -1,0 +1,43 @@
+{
+  "intent": "sale",
+  "payer": {
+  "payment_method": "paypal"
+  },
+  "transactions": [
+  {
+    "amount": {
+    "total": "20.00",
+    "currency": "GBP"
+    },
+    "description": "The payment transaction description.",
+    "invoice_number": "{{INVOICE_NUMBER}}",
+    "payment_options": {
+    "allowed_payment_method": "INSTANT_FUNDING_SOURCE"
+    },
+    "item_list": {
+    "items": [
+      {
+      "name": "Test Item 1",
+      "description": "Test Description",
+      "quantity": "2",
+      "price": "7.5",
+      "sku": "1",
+      "currency": "GBP"
+      }, 
+      {
+      "name": "Test Item 2",
+      "description": "Test Description 2",
+      "quantity": "1",
+      "price": "5",
+      "sku": "2",
+      "currency": "GBP"
+      }
+    ]
+    }
+  }
+  ],
+  "redirect_urls": {
+  "return_url": "com.kotlin.patrick:/test",
+  "cancel_url": "com.kotlin.patrick:/test"
+  }
+}

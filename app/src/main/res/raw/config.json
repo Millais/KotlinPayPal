@@ -1,0 +1,6 @@
+{
+	"client-id" : "<Test Sandbox Client Id>",
+	"secret" : "<Test Sandbox Secret>",
+	"paypal-endpoint" : "https://api.sandbox.paypal.com/v1/",
+	"braintree-endpoint" : "http://192.168.0.2:12345"
+}
