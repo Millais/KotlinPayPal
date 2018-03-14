@@ -40,8 +40,6 @@ class PayPalController : Controller(), PayPalContract.View {
     override fun setPayPalRedirect(redirectURL: String?) {
         view.btnOpenPayPal.setOnClickListener {
             val customTabIntent = CustomTabsIntent.Builder().build()
-            // This flag removes the Custom Tab from the backstack during the deep link return
-            customTabIntent.intent.flags = Intent.FLAG_ACTIVITY_NO_HISTORY
             customTabIntent.launchUrl(this.applicationContext, Uri.parse(redirectURL))
         }
     }
